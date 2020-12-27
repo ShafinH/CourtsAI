@@ -45,7 +45,7 @@ export default {
             this.running = true;
          
          
-            const model = await tf.loadLayersModel('./models/sentence-linear/model.json');
+            const model = await tf.loadLayersModel('../models/bail-linear/model.json');
 
 
             const input = document.getElementById(input);
